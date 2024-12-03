@@ -1,56 +1,132 @@
-# Eagle_Academy
-The Eagle Academy Desktop Application is a feature-rich, Java-based application designed to manage academic processes efficiently. Built with a graphical user interface (GUI), the system is tailored to handle student and staff management tasks, attendance tracking, and email communication within an educational institution.
+# Eagle Academy - Desktop Application
 
-Key Features:
-Student Management
-Add new student profiles with personal and academic details.
-Update student information, including grades and performance records.
-Delete student records when necessary.
-View a list of enrolled students and search using filters (e.g., name, ID, class).
-Attendance Tracking
-Mark and track attendance for students in different classes.
-Generate attendance reports for individual students or classes.
-Notify students or parents via email for low attendance or irregularities.
-Email Communication
-Send emails directly from the application to students, parents, or staff.
-Use pre-defined email templates for common notifications (e.g., reminders, announcements).
-Track email delivery and manage communication history.
-Staff Management
-Add, update, and remove staff profiles (teachers, administrative staff).
-Assign teachers to specific classes or subjects.
-Dashboard Overview
-A user-friendly dashboard summarizing key metrics like student count, attendance percentage, and announcements.
-Access shortcuts to frequently used features for quick navigation.
-Reporting and Analytics
-Generate and export reports for student performance, attendance, and overall class performance.
-Export data in various formats (PDF, Excel).
-Security
-User authentication system for secure access to the application.
-Role-based access (Admin, Teacher, Staff) to manage permissions.
-Technology Stack:
-Programming Language: Java
-GUI Framework: Java Swing or JavaFX
-Database: MySQL or SQLite for storing application data
-Email Service: JavaMail API for email integration
-File Export: Apache POI for generating Excel reports, iText for PDF generation
-How It Works:
-Login System:
-Users log in using their credentials, with role-based access to application features.
+**Eagle Academy Desktop Application** is a Java-based GUI application designed for efficient management of academic institutions. It offers features to streamline student and staff management, attendance tracking, and email communication, all within a user-friendly interface.
 
-Student Management:
-Add new students or update their records. View performance and attendance reports in real time.
+---
 
-Attendance:
-Teachers can mark attendance for their classes, while admins can oversee and generate reports.
+## Features
 
-Email Communication:
-Send notifications to parents or students regarding updates, announcements, or warnings.
+### Student Management
+- **Add Students:** Register new students with complete personal and academic details.
+- **Edit Details:** Update student records, including academic performance and grades.
+- **Delete Students:** Remove records of students no longer enrolled.
+- **View Profiles:** Display a list of students with advanced search and filter options.
 
-Reporting:
-Generate and download customized reports for academic and administrative purposes.
+### Attendance Tracking
+- **Mark Attendance:** Allow teachers to record attendance for each class.
+- **Generate Reports:** Create attendance reports for individual students or entire classes.
+- **Email Notifications:** Notify students and parents about attendance-related updates.
 
-Future Enhancements:
-Mobile app integration for better accessibility.
-Cloud database support for multi-user functionality across different devices.
-Integration with learning management systems (LMS) for online courses.
-SMS notification system for urgent messages.
+### Email Communication
+- **Send Emails:** Communicate with students, parents, and staff directly from the application.
+- **Pre-defined Templates:** Use templates for announcements, reminders, and alerts.
+- **Track History:** Keep a record of sent emails.
+
+### Staff Management
+- **Manage Staff:** Add, update, and remove staff records.
+- **Assign Roles:** Designate teachers to classes or specific subjects.
+
+### Reporting & Analytics
+- Generate detailed reports for student performance and attendance.
+- Export data in PDF or Excel formats for sharing and archiving.
+
+### Security
+- **User Authentication:** Secure login system to prevent unauthorized access.
+- **Role-Based Access:** Admins, teachers, and staff have role-specific permissions.
+
+---
+
+## Technology Stack
+
+- **Programming Language:** Java
+- **GUI Framework:** Java Swing or JavaFX
+- **Database:** MySQL or SQLite
+- **Email Integration:** JavaMail API
+- **Report Generation:** Apache POI (Excel) and iText (PDF)
+
+---
+
+## Installation
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/sanodyaJinadasa/Eagle-Academy.git
+   ```
+
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd Eagle-Academy
+   ```
+
+3. **Set Up the Database:**
+   - Install MySQL or SQLite.
+   - Run the provided SQL scripts to set up the database schema and seed data.
+
+4. **Compile and Run the Application:**
+   ```bash
+   javac Main.java
+   java Main
+   ```
+
+5. **Email Configuration:**
+   - Configure SMTP settings in the application for email functionality.
+   - Add your email credentials securely in the configuration file.
+
+---
+
+## Usage
+
+1. **Login:** Admins and staff log in with their credentials.
+2. **Navigate the Dashboard:** Access various management features from the main menu.
+3. **Manage Data:** Add or update records for students, staff, and attendance.
+4. **Send Notifications:** Use the email module for communication.
+5. **Generate Reports:** Create and export performance and attendance reports.
+
+---
+
+## Future Enhancements
+
+- **Mobile Integration:** Develop a companion mobile app for better accessibility.
+- **Cloud Support:** Implement a cloud database for multi-device synchronization.
+- **LMS Integration:** Integrate with learning management systems for online course management.
+- **SMS Notifications:** Add an SMS feature for urgent alerts.
+
+---
+
+## Contribution
+
+Contributions are welcome! Follow these steps:
+
+1. **Fork the Repository**
+2. **Create a Feature Branch:**
+   ```bash
+   git checkout -b feature-name
+   ```
+3. **Commit Changes:**
+   ```bash
+   git commit -m "Add feature description"
+   ```
+4. **Push Branch:**
+   ```bash
+   git push origin feature-name
+   ```
+5. **Open a Pull Request:** Submit your changes for review.
+
+---
+
+## Links
+
+- **LinkedIn:** [Sanodya V. Jinadasa](https://www.linkedin.com/in/sanodya-v-jinadasa/)
+- **GitHub:** [Sanodya Jinadasa](https://github.com/sanodyaJinadasa)
+
+---
+
+## License
+
+This project is open-source and licensed under the [MIT License](LICENSE).
+
+---
+
+## Acknowledgments
+
+Special thanks to contributors and testers who made this project a success.
